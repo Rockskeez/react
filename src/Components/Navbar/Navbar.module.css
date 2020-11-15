@@ -1,0 +1,56 @@
+.navigation {
+    background-color: burlywood;
+    width: 20%;
+}
+.navigation_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.navigation_list_item {
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+} 
+
+.navigation_list_item a {
+    text-decoration: none;
+    cursor: pointer;
+    color:  white;
+}
+
+.navigation_list_item a.activeLink {
+    color: gold;
+}
+
+.friends_title {
+    text-align: center;
+    color: red;
+}
+
+.friends_list {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.friends_list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.friends_list li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.friend_title {
+    font-size: 13px;
+}

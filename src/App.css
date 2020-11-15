@@ -1,0 +1,12 @@
+.app-wrapper {
+  
+}
+.app-content {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.app-wrapper-content {
+  width: 80%;
+}

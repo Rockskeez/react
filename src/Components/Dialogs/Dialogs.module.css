@@ -1,0 +1,46 @@
+.dialogs {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: pink;
+    height: 100%;
+}
+
+.dialogs_items {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.dialog a {
+    color:  black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.messages {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.message {
+
+}
+
+.avatar {
+    list-style-type: none;
+}
+
+.dialogs ul {
+    margin-right: 50px;
+}
+
+.dialogs textarea {
+    height: 60px;
+    resize: none;
+    margin-top: auto;
+}
+.dialogs button {
+    height: 20px;
+    width: 80px;
+    margin-top: auto;
+}

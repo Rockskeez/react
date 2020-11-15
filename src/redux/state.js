@@ -70,4 +70,4 @@ export const subscribe = (observer) => {
 
 export default state;
 
-// store
+// store - OOP

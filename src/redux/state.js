@@ -10,7 +10,7 @@ let state = {
             { id: 3, message: 'blablabla', likesCount: 23},
             { id: 4, message: 'You\'re account is crazy!', likesCount: 9},
         ],
-        newPostText: 'it-kamasutra.com',
+        newPostText: 'HI!!!',
     },
     dialogsPage: {
         avatars : [
@@ -23,7 +23,7 @@ let state = {
         ],
         messages : [
             { id: 1, message: 'Hi' },
-            { id: 2, message: 'How is your it-kamasutra?' },
+            { id: 2, message: 'How are you?' },
             { id: 3, message: 'Yo' },
             { id: 4, message: 'Yo' },
             { id: 5, message: 'Yo' },
@@ -64,8 +64,10 @@ export const updateNewPostText = (newText) => {
     rerenderEntireTree(state);
 };
 
-export const subscribe = (obserber) => {
-    
+export const subscribe = (observer) => {
+    rerenderEntireTree = observer; // observer
 }
 
 export default state;
+
+// store

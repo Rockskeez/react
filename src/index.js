@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { addPost, subscribe, updateNewPostText } from './redux/state';
 import state from './redux/state';
 
-let rerenderEntireTree = () => {
+let rerenderEntireTree = (state) => {
   ReactDOM.render(
     <React.StrictMode>
       <App appState={state} addPost={addPost} updateNewPostText={updateNewPostText}/>
@@ -16,6 +16,8 @@ let rerenderEntireTree = () => {
 };
 
 rerenderEntireTree(state);
+
+subscribe();
 
 subscribe(rerenderEntireTree);
 
